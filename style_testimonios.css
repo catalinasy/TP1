@@ -1,2 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow')
 
+body {
+    background-image: url(BackgroundImage.jpg);
+    font-family: 'PT Sans Narrow', sans-serif
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  margin:10px
+}
+
+.testimonio{
+    background-color:rgb(222, 232, 233);
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px rgb(90, 106, 139);
+    padding: 30px
+}
+
+.testimonio {
+    width: 400px;
+    height: 130px;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    margin: 20px
+  }
+  
+  .testimonio::before {
+    content: " “ ";
+    color: black;
+    position: absolute;
+    top: 00px;
+    left: -10px;
+    width: 60px;
+    font-size: 250%
+  }
+  
+  .testimonio:after{
+    content: " ” ";
+    color: black;
+    position: absolute;
+    bottom: -60px;
+    right: -10px;
+    width: 60px;
+    font-size: 250%
+  }
+  
+  .testimonio:first-letter {
+    color:black;
+    font-size: 150%
+    }
+ 
+    #t2, #t4{
+      left:900px
+    }
