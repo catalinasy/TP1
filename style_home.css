@@ -1,5 +1,6 @@
 body {
   background-image: url(Backgroundimage.jpg);
+  margin:0;
 }
 
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
@@ -18,6 +19,7 @@ body {
   height: 50%;
   text-align: center;
   border: rgb(222, 232, 233) solid 4px;
+  background-color: rgb(222, 232, 233);
   border-radius: 10px;
 }
 
@@ -72,10 +74,11 @@ body {
 #contenedor3 {
   border-radius: 10px;
   background-color: rgb(222, 232, 233);
+  margin: 0;
   margin-top: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 100%;
   height: 80%;
   display: flex;
   flex-direction: column;
