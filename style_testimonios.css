@@ -4,6 +4,49 @@ body {
     font-family: 'PT Sans Narrow', sans-serif
 }
 
+/* HEADER*/
+
+header {
+  display: flex;  
+  align-items: center;
+  justify-content: flex-start;
+  height: 6w;
+  background-color: rgb(222, 232, 233);
+  font-size: 1.2em;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 5vw;
+}
+
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 60px;
+  width: 40vw;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* termina HEADER*/
+
 .flex-container{
   display: flex;
   flex-direction: column;
@@ -18,10 +61,10 @@ body {
 }
 
 .testimonio{
-    background-color:rgb(222, 232, 233);
+    background-color: rgba(255, 255, 0, 0.863);
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 0px rgb(90, 106, 139);
+    box-shadow: 5px 5px 5px 0px rgb(238, 238, 113);
     padding: 30px
 }
 
@@ -62,6 +105,54 @@ body {
       left:900px
     }
 
+    /* FOOTER */
+
+footer {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  height: 6w;
+  background-color:  rgb(222, 232, 233);
+  font-size: 1em;
+  bottom: 0px;
+  margin-top: 10px;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 5vw;
+}
+
+.datos {
+  margin: 10px;
+  text-align: center;
+}
+/* BUTTON */
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  list-style: none;/*
+  margin-left: auto;*/
+  margin-right: 50px;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid #625D85;
+  border-radius: 5px;
+  background-color: #625D85;
+  height: 20px;
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+}
+
+
     /*@media only screen and (min-device-width : 667px) and (max-device-width : 768px) {
       .flex-container{
           display: flex;
@@ -95,9 +186,3 @@ body {
   }
   */
 
-  .banner, .footer{
-    border: 5px solid black;
-    background-color:black;
-    color: white;
-    margin: 20px
-  }
