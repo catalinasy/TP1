@@ -1,10 +1,22 @@
 body {
-  background-image: url(Backgroundimage.jpg);
-  margin:0;
+  /*background-image: url(Backgroundimage.jpg);*/
+  background-color: #d49cee;
+  margin: 0;
 }
 
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 
+#gradiente{
+
+  background-image: linear-gradient(#f8cbed, rgb(160, 102, 236));
+    height: 70%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 #banner {
   width: 60%;
   margin: 0;
@@ -18,16 +30,19 @@ body {
   align-content: center;
   height: 50%;
   text-align: center;
-  border: rgb(222, 232, 233) solid 4px;
-  background-color: rgb(222, 232, 233);
+  border: #1d194654 solid 4px;
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
   border-radius: 10px;
+  
 }
 
 #contenedor1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(222, 232, 233);
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
   margin: 0;
   text-align: center;
   align-items: center;
@@ -53,7 +68,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(222, 232, 233);
+  /*background-color: rgb(231, 222, 233);*/
+  background-color: whitesmoke;
   margin: 0;
   text-align: center;
   align-items: center;
@@ -63,174 +79,274 @@ body {
 }
 
 #contenedor2 div {
-  width: 30%;
+  width: 50%;
   border: #016386 solid 2px;
   border-radius: 30px;
-  background-color: rgb(222, 232, 233);
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
   height: 40%;
   padding-top: 2%;
 }
 
 #contenedor3 {
-  border-radius: 10px;
-  background-color: rgb(222, 232, 233);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
   margin: 0;
-  margin-top: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
-  width: 90%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  /*margin-left: 10%;
+  margin-right: 10%;*/
+  
 }
 
 .contenedorCaja {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 20%;
-    background-color: rgb(222, 232, 233);
-    margin: 0;
-    height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20%;
+  margin: 0;
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
 }
 
-.contenedorCaja.uno{
-    padding: 0%;
-    padding-top:5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-bottom: grey solid 1px;
-
+.contenedorCaja.uno {
+  padding: 0%;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: grey solid 1px;
 }
 
-.contenedorCaja.dos{
-    padding: 0%;
-    padding-bottom: 5%;
+.contenedorCaja.dos {
+  padding: 0%;
+  padding-bottom: 5%;
 }
 
-#caja1{
-    height: 100%;
-    width: 50%;
-    border-right: grey solid 1px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 200%;
+#caja1 {
+  height: 100%;
+  width: 50%;
+  border-right: grey solid 1px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 200%;
 }
 #caja1 img {
-    height: 50%;
+  height: 50%;
 }
 
-#caja2 img{
-    height: 40%;
+#caja2 img {
+  height: 40%;
 }
 
-
-#caja2{
-    height: 100%;
-    width: 50%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 200%;
-    
+#caja2 {
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 200%;
 }
 
+#caja3 {
+  height: 100%;
+  width: 50%;
+  border-right: grey solid 1px;
+  margin: 0;
 
-#caja3{
-    height: 100%;
-    width: 50%;
-    border-right: grey solid 1px;
-    margin: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 200%;
-    padding-top: 5%;
-
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 200%;
+  padding-top: 5%;
 }
 
-#caja3 img{
-    height: 50%;
+#caja3 img {
+  height: 50%;
 }
-#caja4{
-    height: 100%;
-    width: 50%;
-    margin: 0;
+#caja4 {
+  height: 100%;
+  width: 50%;
+  margin: 0;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 200%;
-
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 200%;
+  opacity: 0,5;
 }
 
 /* FOOTER */
 
 footer {
-    display: flex;  
-    align-items: center;
-    justify-content: space-between;
-    height: 6w;
-    background-color:  rgb(222, 232, 233);
-    font-size: 1em;
-    bottom: 0px;
-    margin-top: 10px;
-  }
-  
-  footer a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6w;
+
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
+  font-size: 1em;
+  bottom: 0px;
+  margin-top: 10px;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 5vw;
+}
+
+.datos {
+  margin: 10px;
+  text-align: center;
+}
+/* BUTTON */
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  list-style: none; /*
+    margin-left: auto;*/
+  margin-right: 50px;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid #625d85;
+  border-radius: 5px;
+  background-color: #625d85;
+  height: 20px;
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.contenedor.Metricas {
+  width: 100%;
+
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  padding-top: 10%;
+  /*margin-right: 10%;
+  margin-left:10%*/
+}
+.sociales{
+    height: 20%;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 50%;
+    width: 100%;;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: whitesmoke;
+}
+.icono{
+    margin: 50%;
+    padding: 0;
+}
+
+.sociales div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+
+}
+.sociales img{
+    height: 20%;;
+
+}
+
+.cajita{
+    height: 60%;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 17%;
+    border: grey solid 1px;
+
+
+}
+
+.cajita.uno{
+    background-color:#edd0ec
+    
+}
+
+
+.cajita.dos{
+    background-color:#d49cee
+    
+}
+.cajita.tres{
+    background-color:#b1abeb
+    
+}
+.cajita.cuatro{
+    background-color:#9fc5f0
+    
+}
+.cajita.cinco{
+    background-color:#8ef1cb
+    
+}
+
+#botonContacto{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-  .logo {
-    height: 5vw;
-  }
+    width: 20%;
+    border: #016386 solid 2px;
+    border-radius: 30px;
+    /*background-color: rgb(222, 232, 233);*/
+    background-color: whitesmoke;
+    height: 20%;
+    font-size: 400%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
   
-  .datos {
-    margin: 10px;
-    text-align: center;
-  }
-  /* BUTTON */
-  
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    list-style: none;/*
-    margin-left: auto;*/
-    margin-right: 50px;
-    text-align: center;
-  }
-  
-  .button {
-    border: 1px solid #625D85;
-    border-radius: 5px;
-    background-color: #625D85;
-    height: 20px;
-    width: 150px;
-    margin: 10px;
-    padding: 5px;
-  }
