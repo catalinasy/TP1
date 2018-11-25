@@ -98,7 +98,7 @@ body {
 }
 
 .contenedorCaja.uno{
-    padding: 2%;
+    padding: 0%;
     padding-top:5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -107,7 +107,7 @@ body {
 }
 
 .contenedorCaja.dos{
-    padding: 2%;
+    padding: 0%;
     padding-bottom: 5%;
 }
 
@@ -115,6 +115,7 @@ body {
     height: 100%;
     width: 50%;
     border-right: grey solid 1px;
+    padding: 0;
 
     
 }
@@ -123,6 +124,7 @@ body {
 #caja2{
     height: 100%;
     width: 50%;
+    padding: 0;
 
     
 }
