@@ -187,3 +187,50 @@ body {
 
     
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    height: 6w;
+    background-color:  rgb(222, 232, 233);
+    font-size: 1em;
+    bottom: 0px;
+    margin-top: 10px;
+  }
+  
+  footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    height: 5vw;
+  }
+  
+  .datos {
+    margin: 10px;
+    text-align: center;
+  }
+  /* BUTTON */
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    list-style: none;/*
+    margin-left: auto;*/
+    margin-right: 50px;
+    text-align: center;
+  }
+  
+  .button {
+    border: 1px solid #625D85;
+    border-radius: 5px;
+    background-color: #625D85;
+    height: 20px;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+  }
