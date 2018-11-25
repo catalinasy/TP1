@@ -62,7 +62,7 @@ a {
 #c2, #c4{
   display: flex;
   flex-direction: column;
-  margin-right: -300px
+  margin-left: 300px
 }
 
 .testimonio{
