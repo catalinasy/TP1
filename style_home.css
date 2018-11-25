@@ -1,6 +1,147 @@
-body{
-    background-image: url(Backgroundimage.jpg);
+body {
+  background-image: url(Backgroundimage.jpg);
+}
+
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+
+#banner {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 50%;
+  text-align: center;
+  border: rgb(222, 232, 233) solid 4px;
+  border-radius: 10px;
+}
+
+#contenedor1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(222, 232, 233);
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 300%;
+  height: 70%;
+  margin-bottom: 0;
+}
+#imagen {
+  width: 50%;
+}
+
+#holaMundo {
+  padding-right: 20%;
+}
+
+#imagen img {
+  height: 100%;
+  width: 100%;
+}
+
+#contenedor2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(222, 232, 233);
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 100%;
+  height: 30%;
+}
+
+#contenedor2 div {
+  width: 30%;
+  border: #016386 solid 2px;
+  border-radius: 30px;
+  background-color: rgb(222, 232, 233);
+  height: 40%;
+  padding-top: 2%;
+}
+
+#contenedor3 {
+  border-radius: 10px;
+  background-color: rgb(222, 232, 233);
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedorCaja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20%;
+    background-color: rgb(222, 232, 233);
+    margin: 0;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
     
 
+}
 
+.contenedorCaja.uno{
+    padding: 2%;
+    padding-top:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: grey solid 1px;
+
+}
+
+.contenedorCaja.dos{
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+#caja1{
+    height: 100%;
+    width: 50%;
+    border-right: grey solid 1px;
+
+    
+}
+
+
+#caja2{
+    height: 100%;
+    width: 50%;
+
+    
+}
+
+
+#caja3{
+    height: 100%;
+    width: 50%;
+    border-right: grey solid 1px;
+    margin: 0;
+
+    
+}
+
+
+#caja4{
+    height: 100%;
+    width: 50%;
+    margin: 0;
+
+    
 }
