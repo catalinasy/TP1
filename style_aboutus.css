@@ -144,6 +144,7 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+
 .foto2 {
   background-color: black;
   background-image: url('Segunda2.png');
@@ -164,7 +165,8 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
+} 
+
 .foto3 {
   background-color: black;
   background-image: url('Tercera2.png');
@@ -187,6 +189,7 @@ a {
   align-items: center;
   padding-bottom: 10px;
 }
+
 .foto4 {
   background-color: black;
   background-image: url('Cuarta2.jpg');
