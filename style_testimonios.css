@@ -47,6 +47,11 @@ a {
 
 /* termina HEADER*/
 
+.title {
+  display: flex;
+  justify-content: center;
+} 
+
 .flex-container{
   display: flex;
   flex-direction: column;
@@ -61,10 +66,11 @@ a {
 }
 
 .testimonio{
-    background-color: rgba(255, 255, 0, 0.863);
+    /*background-color: rgba(240, 200, 71, 0.863);*/
+    background-color: rgb(247, 195, 204);
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 0px rgb(238, 238, 113);
+    box-shadow: 5px 5px 5px 0px rgb(240, 168, 228);
     padding: 30px
 }
 
@@ -76,7 +82,7 @@ a {
     position: relative;
   }
   
-  .testimonio::before {
+  .testimonio::before { 
     content: " “ ";
     color: black;
     position: absolute;
