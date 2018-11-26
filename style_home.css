@@ -91,7 +91,7 @@ a {
 
 #contenedor2 div {
   width: 50%;
-  border: whitesmoke solid 2px;
+  border: grey solid 2px;
   border-radius: 30px;
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
@@ -392,6 +392,6 @@ footer a {
     font-size: 400%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #d07beb
+
 }
   
