@@ -1,14 +1,16 @@
 body {
-  background-image: url(Backgroundimage.jpg);
   margin: 0px;
   padding: 0px;
+  background-image: url(Backgroundimage.jpg);
+  
 }
 
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 
 #gradiente{
-
-  background-image: linear-gradient(#f8cbed, rgb(160, 102, 236));
+background-image: url(Backgroundimage.jpg);
+  
+  /*background-image: linear-gradient(#f8cbed, rgb(160, 102, 236));*/
     height: 70%;
     width: 100%;
     margin: 0;
@@ -17,6 +19,8 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
+
 #banner {
   width: 60%;
   margin: 0;
@@ -85,8 +89,7 @@ body {
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
   height: 40%;
-  padding-top: 2%;
-}
+  padding-top: 2%;}
 
 #contenedor3 {
   border-top-left-radius: 10px;
@@ -105,7 +108,7 @@ body {
   margin-top: 0;
   /*margin-left: 10%;
   margin-right: 10%;*/
-  
+  padding-bottom: 5%;
 }
 
 .contenedorCaja {
@@ -117,6 +120,7 @@ body {
   height: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 5%;
 
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
@@ -252,18 +256,24 @@ footer a {
   padding: 5px;
 }
 
+.contenedor.metricas.top{
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
 .contenedor.Metricas {
   width: 100%;
+  margin-top:10;
 
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
-  height: 40%;
+  height: 60%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
-  padding-top: 10%;
   /*margin-right: 10%;
   margin-left:10%*/
 }
@@ -281,8 +291,25 @@ footer a {
   background-color: whitesmoke;
 }
 .icono{
-    margin: 50%;
+    margin: 10%;
     padding: 0;
+}
+
+.texto{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2em;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  text-align: 0;
+}
+
+
+.texto.metricas{
+  height: 20%; 
 }
 
 .sociales div{
@@ -290,7 +317,8 @@ footer a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 5%;
+    padding: 0;
+    width: 70%;
 
 }
 .sociales img{
