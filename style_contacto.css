@@ -64,8 +64,15 @@ a {
     margin: 10px;
     border-radius: 20px;
     padding: 60px;
+    justify-content: flex-end;
 
 }
+
+.formrow{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 input[type=text] {
     width: 30%;
