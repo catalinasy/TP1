@@ -1,7 +1,7 @@
 body {
-  /*background-image: url(Backgroundimage.jpg);*/
-  background-color: #d49cee;
-  margin: 0;
+  background-image: url(Backgroundimage.jpg);
+  margin: 0px;
+  padding: 0px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
