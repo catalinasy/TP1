@@ -5,7 +5,7 @@ body {
   
 }
 
-@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|PT+Sans+Narrow');
 
 #gradiente{
 background-image: url(Backgroundimage.jpg);
@@ -20,6 +20,12 @@ background-image: url(Backgroundimage.jpg);
     justify-content: center;
 }
 
+a {
+  font-family: "PT Sans Narrow", sans-serif;
+  outline: none;
+  color: black;
+  text-decoration: none;
+}
 
 #banner {
   width: 60%;
@@ -34,7 +40,7 @@ background-image: url(Backgroundimage.jpg);
   align-content: center;
   height: 50%;
   text-align: center;
-  border: #1d194654 solid 4px;
+  border: whitesmoke solid 4px;
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
   border-radius: 10px;
@@ -61,6 +67,7 @@ background-image: url(Backgroundimage.jpg);
 
 #holaMundo {
   padding-right: 20%;
+
 }
 
 #imagen img {
@@ -84,7 +91,7 @@ background-image: url(Backgroundimage.jpg);
 
 #contenedor2 div {
   width: 50%;
-  border: #016386 solid 2px;
+  border: whitesmoke solid 2px;
   border-radius: 30px;
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
@@ -308,8 +315,17 @@ footer a {
 }
 
 
-.texto.metricas{
-  height: 20%; 
+#textometricas{
+  height: 20%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+  margin: 0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
 }
 
 .sociales div{
