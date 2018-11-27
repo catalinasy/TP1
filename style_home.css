@@ -20,8 +20,9 @@ background-image: url(Backgroundimage.jpg);
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -81,19 +82,27 @@ a {
   width: 100%;
 }
 
-#contenedor2 {
+.boton1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   /*background-color: rgb(231, 222, 233);*/
-  background-color: whitesmoke;
+  background-color:red;
   margin: 0;
   text-align: center;
   align-items: center;
   font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
   font-size: 100%;
-  height: 30%;
-  padding-bottom: 5%;
+  height: 10%;
+  width: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: black 2px solid;
+  background-color: #31e68b;
+  border-radius: 10px;
+
 }
 
 #contenedor2 div {
