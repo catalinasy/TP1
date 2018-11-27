@@ -15,7 +15,7 @@ body {
 background-image: url(Backgroundimage.jpg);
   
   /*background-image: linear-gradient(#f8cbed, rgb(160, 102, 236));*/
-    height: 70%;
+    height: 50%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -113,9 +113,7 @@ a {
 }
 
 #contenedor3 {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-
+  border-radius: 10px;
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
   margin: 0;
@@ -129,7 +127,7 @@ a {
   margin-top: 0;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 0;
 }
 
 .contenedorCaja {
@@ -138,7 +136,7 @@ a {
   justify-content: space-around;
   margin: 20%;
   margin: 0;
-  height: 70%;
+  height: 50%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -149,6 +147,7 @@ a {
 
 .contenedorCaja.uno {
   padding: 0%;
+  padding-bottom 5%;
   padding-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -158,6 +157,9 @@ a {
 .contenedorCaja.dos {
   padding: 0%;
   padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50%;
 }
 
 #caja1 {
@@ -278,18 +280,20 @@ footer a {
 }
 
 .contenedor.metricas.top{
-  width: 100%;
+  width: 90%;
   margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   flex-direction: column;
 }
 .contenedor.Metricas {
   width: 100%;
-  margin-top:10;
+  margin-top:5%;
 
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
-  height: 60%;
+  height: 30%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -299,7 +303,8 @@ footer a {
   margin-left:10%*/
 }
 .sociales{
-    height: 45%;
+  padding: 0;
+    height: 20%;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 50%;
     width: 100%;;
@@ -307,32 +312,39 @@ footer a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
 
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
 }
 .sociales div{
   margin: 0;
-  padding:10%;
   margin-bottom: 5%;
 }
 
 .icono{
     margin: 10%;
     padding: 0;
-    width: 70%;
+    width: 10%;
+}
+
+.contenedor.icono{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  width: 70%;
+
 }
 
 .texto{
+  padding: 0;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 4em;
   width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-  text-align: 0;
+  height: 50%;
   padding-bottom: 5%;
 }
 
@@ -352,27 +364,24 @@ footer a {
   justify-content: center;  
 }
 
-.sociales div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0;
-    width: 70%;
-
 }
 .sociales img{
-    height: 20%;;
+    height: 10%;;
 
 }
 
 .cajita{
-    height: 60%;
+    height: 50%;
     margin: 0;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top:0;
+    margin-bottom: 5%;
     width: 17%;
     border: grey solid 1px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 
 }
