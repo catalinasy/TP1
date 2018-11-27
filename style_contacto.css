@@ -2,7 +2,9 @@
 body {
     background-image: url(BackgroundImage.jpg);
     font-family: 'PT Sans Narrow', sans-serif;
-    background-size:cover
+    background-size:cover;       
+    margin: 0px;
+    padding: 0px;
 }
 
 /* HEADER*/

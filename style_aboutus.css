@@ -33,8 +33,8 @@
   }
 
 body {
-    background: url("BackgroundImage.jpg");
-    font-family: 'PT Sans Narrow';    
+  background: url("BackgroundImage.jpg");
+  font-family: 'PT Sans Narrow';    
   margin: 0px;
   padding: 0px;
 
@@ -47,7 +47,7 @@ header {
   align-items: center;
   justify-content: flex-start;
   height: 6w;
-  background-color:  rgb(222, 232, 233);
+  background-color:  rgb(241, 253, 255);
   font-size: 1.2em;
 }
 
@@ -84,13 +84,20 @@ a {
 /* ABOUT US */
 
 .aboutus {
-    background-color: rgb(222, 232, 233);
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    margin-left:200px;
-    margin-right: 200px;
+  border: 1px solid  rgb(241, 253, 255);
+  background-color: rgb(241, 253, 255);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-left:200px;
+  margin-right: 200px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .aboutus h1 {
     padding: 10px;
@@ -103,7 +110,7 @@ a {
 }
 
 .us {
-  background-color: rgb(222, 232, 233);
+  background-color: rgb(241, 253, 255);
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -111,9 +118,17 @@ a {
   margin-left:200px;
   margin-right: 200px;
   height: auto;
+  border: solid 1px rgb(241, 253, 255);
+  -webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+padding-bottom: 10px;
 }
 
-/* PRIMERA FOTO */
+/* FOTOS Y DESCRIPCIONES */
 
 .primera {
   width: 100%;
@@ -123,83 +138,32 @@ a {
   align-items: center;
 }
 
-.foto1 {
-  background-color: black;
-  background-image: url('Primera2.jpg');
+.foto {
   height: 150px;
   width: 150px;
   border-radius: 150px;
+}
+
+.uno {
+  background-image: url('Primera2.jpg');
 }
 
 .primera p {
   width: 50vw;
 }
 
-/* SEGUNDA FOTO */
-
-.segunda {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.foto2 {
-  background-color: black;
+.dos {
   background-image: url('Segunda2.png');
-  height: 150px;
-  width: 150px;
-  border-radius: 150px;
 }
 
-.segunda p {
-  width: 50vw;
-}
-
-/* TERCERA FOTO */
-
-.tercera {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-} 
-
-.foto3 {
-  background-color: black;
+.tres {
   background-image: url('Tercera2.png');
-  height: 150px;
-  width: 150px;
-  border-radius: 150px;
+
 }
 
-.tercera p {
-  width: 50vw;
-}
-
-/* CUARTA FOTO */
-
-.cuarta {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 10px;
-}
-
-.foto4 {
-  background-color: black;
+.cuatro {
   background-image: url('Cuarta2.jpg');
-  height: 150px;
-  width: 150px;
-  border-radius: 150px;
-}
-
-.cuarta p {
-  width: 50vw;
+  
 }
 
 /* FOOTER */
@@ -209,7 +173,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 6w;
-  background-color:  rgb(222, 232, 233);
+  background-color:  rgb(241, 253, 255);
   font-size: 1em;
   bottom: 0px;
   margin-top: 10px;
