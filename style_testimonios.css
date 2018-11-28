@@ -4,7 +4,6 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
     background-size:cover;           
     margin: 0px;
-    padding: 0px;
 }
 
 /* HEADER*/
@@ -26,7 +25,6 @@ header a {
 .logo {
   height: 5vw;
 }
-
 
 header ul {
   display: flex;
@@ -79,16 +77,13 @@ a {
     margin: 10px;
     border-radius: 20px;
     padding: 30px;
-    line-height: 60px
-}
-
-.testimonio {
+    line-height: 60px;
     width: 550px;
     height: 150px;
     text-align: center;
     font-size: 2em;
     position: relative;
-  }
+}
   
   .testimonio::before { 
     content: " “ ";
@@ -114,27 +109,20 @@ a {
     color:black;
     font-size: 150%
     }
- 
-    #t2, #t4{
-      left:800px
-    }
 
     #t2 {
       background-color: white;
-      opacity: 0.7
+      left:800px
     }
 
     #t3 {
       background-color: grey;
-      opacity: 0.7
     }
 
     #t4 {
       background-color: orange;
-      opacity: 0.7
-
+      left:800px
     }
-
 
  /* FOOTER */
 
