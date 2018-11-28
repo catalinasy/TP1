@@ -63,7 +63,7 @@ a {
 #holaMundo {
   padding-right: 10%;
   width: 70%;
-  font-size: 150%;
+  font-size: 130%;
 
 }
 
@@ -162,7 +162,8 @@ a {
   margin-bottom: 2%;
   border: black 2px solid;
   border-radius: 10px;
-
+  padding-right: 4%;
+  padding-left: 2%;
 }
 
 
