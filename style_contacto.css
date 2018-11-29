@@ -62,7 +62,9 @@ a {
 .flex-container2{
     display: flex;
     flex-direction: column;
-    background-color: rgb(222, 232, 233);
+    color: black;
+    font-weight: bold;
+    /*background-color: rgb(222, 232, 233);*/
     margin: 10px;
     border-radius: 20px;
     padding: 60px;
@@ -73,13 +75,23 @@ a {
 .formrow{
     display: flex;
     justify-content: flex-end;
+    border-radius: 20px;
+    border: none;
 }
 
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+    background-color: rgb(222, 232, 233)
+}
+
+textarea[type=text] {
+background-color: rgb(222, 232, 233)
+}
+.flex-container3{
+  display: flex;
+  justify-content: center;
 }
 
 input[type=submit] {
@@ -88,7 +100,7 @@ input[type=submit] {
     background-color: #625D85;
     height: 30px;
     width: 150px;
-    margin-top: 10px;
+    margin-top: 50px;
   }
 
  /* FOOTER */
