@@ -64,7 +64,6 @@ a {
     flex-direction: column;
     color: black;
     font-weight: bold;
-    /*background-color: rgb(222, 232, 233);*/
     margin: 10px;
     border-radius: 20px;
     padding: 60px;
@@ -100,7 +99,6 @@ input[type=submit] {
     background-color: #625D85;
     height: 30px;
     width: 150px;
-    margin-top: 50px;
   }
 
  /* FOOTER */
