@@ -140,7 +140,7 @@ border-top-right-radius: 10px;
 .boton {
   background-color: #d373b3;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
@@ -151,7 +151,7 @@ border-top-right-radius: 10px;
   margin: 5% 0 2%;
   border: black 2px solid;
   border-radius: 10px;
-  padding: 0 30px 0 0;
+  padding: 0;
 }
 
 
