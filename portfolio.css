@@ -1,7 +1,10 @@
 body {
-    background: url(./fondo.jpg);
-    margin: 0px;
-    padding: 0px;
+    background: url(img/fondo.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 /* HEADER */
@@ -9,8 +12,6 @@ body {
 header {
     display: flex;  
     align-items: center;
-    justify-content: flex-start;
-    height: 6w;
     background-color:  rgb(222, 232, 233);
     font-size: 1.2em;
     font-family: 'Chakra Petch', sans-serif;
@@ -22,14 +23,8 @@ header {
     align-items: center;
   }
   
-  .logo {
-    height: 5vw;
-  }
-  
-  
   header ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     list-style: none;
     margin-left: auto;
@@ -48,69 +43,93 @@ header {
     color: black;
   }
 
+  /* PROYECTOS */
+  
   .proyectos {
-    height: 855px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    position: relative;
     background-color: rgb(222, 232, 233);
-    width: 90%;
+    width: 80%;
     margin: auto;
+    margin-top: 27px;
     border-radius: 30px;
-    font-family: 'PT Sans Narrow', sans-serif; 
- }
+    /*font-family: 'PT Sans Narrow', sans-serif;*/ 
+    font-family: 'Chakra Petch', sans-serif;
+  }
 
   .proyectos h1 {
     font-size: 30px;
     text-align: center;
     letter-spacing: 5px;  
     padding: 10px;
-    margin-bottom: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
+
+  /******* "transition: .5s ease" lo que esta indicando es la cantidad de tiempo que dura dicha "animacion", en este caso EASE
+  especifica un efecto con un comienzo lento, luego rápido y termina lento, TODO en menos de un segundo. En el div .trabajos lo que
+  causa es que todos los efectos aparezcan y desaparezcan en esa cantidad de tiempo, cuando pasas el mouse por arriba *******/
+
+  /*****Por que usar display:block? Porque en este caso no quiero respetar el layout, al contrario, quiero que las cosas estén una por arriba 
+  de la otra. Palabras de la muy sabia Bel Rey ☻☻☻ *****/
 
   .trabajos {
-    display: flex;
+    width: 100%;
     text-align: center;
-    flex-direction: column;
-    align-items: center;
+    transition: .5s ease;
+    display: block;
   }
   
-  .trabajos #tanintensa {
-    width: 100%;
-    height: 200px;
-    background-color: violet;
+  #vicki {background-color: violet; height: 25%;}
+  #mari {background-color: red; height: 25%;}
+  #cata {background-color: grey; height: 25%;}
+  #aldi {background-color: orange; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; height: 25%;}
+
+ /******La clase .middle es el bloque de texto, no el texto en sí pero sí el bloquecito que aparece. Lo de transition ya lo expliqué,
+ La opacidad va en 0 porque si tuviese algún otro valor se vería en el contenedor, y nosotras lo que queremos es que se vea SOLO cuando
+ pasamos el mouse. La propiedad TRANSFORM no la sé explicar del todo bien así que tuve que buscar en google: Especifica la transformación a 
+ realizar sobre el elemento. En este caso la transformación que apliqué se llama TRANSLATE, la cual recoloca un elemento en el eje horizontal 
+ y/o vertical ( ******/
+ 
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    transform: translate(195%,100%);
+    text-align: center;
+    width: 20%;
   }
 
-  .trabajos #flexbox {
-    width: 100%;
-    height: 200px;
-    background-color: white;
-  }
+  #vicki:hover {opacity: 0.6;}
+  #vicki:hover .middle {opacity: 1;}
 
-  .trabajos #moon {
-    width: 100%;
-    height: 200px;
-    background-color: grey;
-  }
+  #mari:hover {opacity: 0.6;}
+  #mari:hover .middle {opacity: 1;}
+  
+  #cata:hover {opacity: 0.6;}
+  #cata:hover .middle {opacity: 1;}
+  
+  #aldi:hover {opacity: 0.6;}
+  #aldi:hover .middle {opacity: 1;}
+  
+  .texto {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    padding: 16px 32px;
+    border-radius: 30px;
+ }
 
-  .trabajos #bel {
-    width: 100%;
-    height: 200px;
-    background-color: orange;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-  }
-
-
-
-
-
-
-
-/* FOOTER */
+  /* FOOTER */
 
 footer {
     display: flex;  
     align-items: center;
     justify-content: space-between;
-    height: 6w;
     background-color:  rgb(222, 232, 233);
     font-size: 1em;
     bottom: 0px;
@@ -123,14 +142,16 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  
   .logo {
     height: 5vw;
   }
-  
+   
   .datos {
     margin: 10px;
     text-align: center;
   }
+
   /* BOTONES */
   
   .buttons {

@@ -1,10 +1,9 @@
 
 body {
-    background-image: url(BackgroundImage.jpg);
+    background-image: url(img/BackgroundImage.jpg);
     font-family: 'PT Sans Narrow', sans-serif;
     background-size:cover;           
     margin: 0px;
-    padding: 0px;
 }
 
 /* HEADER*/
@@ -26,7 +25,6 @@ header a {
 .logo {
   height: 5vw;
 }
-
 
 header ul {
   display: flex;
@@ -67,29 +65,32 @@ a {
   width: 98%
 }
 
-#c2, #c4{
-  display: flex;
-  flex-direction: column;
-  margin-left: 300px
-}
-
 .testimonio{
     background-color: rgb(238, 149, 238);
     opacity: 0.7;
     margin: 10px;
     border-radius: 20px;
     padding: 30px;
-    line-height: 60px
-}
-
-.testimonio {
+    line-height: 60px;
     width: 550px;
     height: 150px;
     text-align: center;
     font-size: 2em;
     position: relative;
-  }
-  
+}
+
+.testimonioIzquierda{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
+.testimonioDerecha{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end
+}
+
   .testimonio::before { 
     content: " “ ";
     color: black;
@@ -114,27 +115,18 @@ a {
     color:black;
     font-size: 150%
     }
- 
-    #t2, #t4{
-      left:800px
-    }
 
     #t2 {
       background-color: white;
-      opacity: 0.7
     }
 
     #t3 {
       background-color: grey;
-      opacity: 0.7
     }
 
     #t4 {
       background-color: orange;
-      opacity: 0.7
-
     }
-
 
  /* FOOTER */
 

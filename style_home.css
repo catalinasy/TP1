@@ -1,11 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|PT+Sans+Narrow');
 
+body{
+  margin:0;
+  padding:0;
+}
 
-body {
+#wrapper{
   margin: 0px;
   padding: 0px;
-  background-image: url(Backgroundimage.jpg);
+  background-image: url("img/Backgroundimage.jpg");
   font-family: "PT Sans Narrow", sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,17 +17,26 @@ body {
 
 }
 
-#gradiente{
-    background-image: url(Backgroundimage.jpg);
-    /*background-image: linear-gradient(#f8cbed, rgb(160, 102, 236));*/
-    height: 50%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
+#banner {
+  width: 40%;
+  padding: 5% 5%;
+  margin:5% 25% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  text-align: center;
+  border: whitesmoke solid 4px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+    font-family: "PT Sans Narrow", sans-serif;
+  font-size: 300%;
+
+  }
+
 
 a {
   font-family: "PT Sans Narrow", sans-serif;
@@ -32,47 +45,14 @@ a {
   text-decoration: none;
 }
 
-#banner {
-  width: 40%;
-  margin: 0;
-  padding: 0;
-  margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  height: 50%;
-  text-align: center;
-  border: whitesmoke solid 4px;
-  /*background-color: rgb(222, 232, 233);*/
-  background-color: whitesmoke;
-  border-radius: 10px;
-  
-}
-
-#contenedor1 {
-  display: flex;
-  justify-content: center;
-  /*background-color: rgb(222, 232, 233);*/
-  background-color: whitesmoke;
-  margin: 0;
-  text-align: center;
-  align-items: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 300%;
-  height: 10f0%;
-  margin-bottom: 0;
-}
 #imagen {
   width: 50%;
 }
 
 #holaMundo {
-  padding-right: 10%;
+  padding:0;
   width: 70%;
-  font-size: 150%;
+  font-size: 130%;
 
 }
 
@@ -81,10 +61,72 @@ a {
   width: 100%;
 }
 
-.boton1 {
-  background-color: #d373b3;
+
+
+#contenedorLinks {
+  height: 50%;
+  border-radius: 10px;
+  border: whitesmoke 2px solid;
+  background-color: whitesmoke;
+  padding: 0;
+  margin: 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.contenedorCaja {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
   margin: 0;
-  /*background-color: rgb(231, 222, 233);*/
+  padding: 0 5% 0;
+  background-color: whitesmoke;
+}
+
+.contenedorCaja.uno {
+  padding: 5% 0 0;
+  margin-left: 0 5%;
+  border-bottom: grey solid 1px;
+}
+
+.contenedorCaja.dos {
+  padding: 0 0 5%;
+  margin-left: 0 5%;
+}
+
+.caja{
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 200%;
+
+}
+
+
+
+.caja.uno{
+  border-right: grey solid 1px;
+}
+
+.caja img {
+  height: 50%;
+}
+
+
+.caja.tres {
+  border-right: grey solid 1px;
+  padding-top: 5%;
+  }
+
+
+.boton {
+  background-color: #d373b3;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -92,138 +134,14 @@ a {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: bold;
   font-size: 100%;
-  height: 20%;
-  width: 20%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  height: 70%;
+  width: 50%;
+  margin: 5% 0 2%;
   border: black 2px solid;
   border-radius: 10px;
-
+  padding: 0 4% 0 2%;
 }
 
-#contenedor2 div {
-  /*background-color: rgb(222, 232, 233);*/
-  background-color:#e3c2ef;
-  width: 50%;
-  height: 40%;
-  border: grey solid 2px;
-  border-radius: 30px;
-  padding-top: 2%;
-  font-size: 200%;
-  padding-bottom: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#contenedor3 {
-  border-radius: 10px;
-  /*background-color: rgb(222, 232, 233);*/
-  background-color: whitesmoke;
-  margin: 0;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60%;
-  margin: 0;
-  padding: 0;
-  margin-top: 0;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding-bottom: 0;
-}
-
-.contenedorCaja {
-  display: flex;
-  justify-content: space-around;
-  margin: 20%;
-  margin: 0;
-  height: 50%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-  /*background-color: rgb(222, 232, 233);*/
-  background-color: whitesmoke;
-}
-
-.contenedorCaja.uno {
-  padding: 0%;
-  padding-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  border-bottom: grey solid 1px;
-}
-
-.contenedorCaja.dos {
-  padding: 0%;
-  padding-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 50%;
-}
-
-#caja1 {
-  width: 50%;
-  border-right: grey solid 1px;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 200%;
-}
-#caja1 img {
-  height: 50%;
-}
-
-#caja2 img {
-  height: 40%;
-}
-
-#caja2 {
-  width: 50%;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 200%;
-}
-
-#caja3 {
-  width: 50%;
-  border-right: grey solid 1px;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 200%;
-  padding-top: 5%;
-}
-
-#caja3 img {
-  height: 50%;
-}
-#caja4 {
-  width: 50%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 200%;
-  opacity: 0,5;
-}
 
 .button {
   border: 1px solid #625d85;
@@ -235,30 +153,18 @@ a {
   padding: 5px;
 }
 
-.contenedor.metricas.top{
-  width: 90%;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  display: flex;
-  flex-direction: column;
-}
 .contenedor.Metricas {
   margin-top:5%;
-
-  /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
   height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  padding-top: 5%;
-  /*margin-right: 10%;
-  margin-left:10%*/
-}
+  padding: 5% 0 0;
+  }
+
 .sociales{
-  padding: 0;
+    padding: 0;
     height: 20%;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 50%;
@@ -312,7 +218,8 @@ p {
 }
 
 .sociales img{
-    height: 40%;
+    height: 50%;
+    padding-right: 2%;
 
 }
 
