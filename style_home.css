@@ -6,7 +6,7 @@ body{
   padding:0;
   font-family: "PT Sans Narrow", sans-serif;
   background-color: #197C9D;
-   background-image: url("img/Backgroundimage.jpg");
+   background-image: url("img/plaid.jpg");
 }
 
 #wrapper{
@@ -22,12 +22,12 @@ body{
 .parallax{
   margin: 0;
   padding: 0;
-  background-image: url("img/Backgroundimage.jpg");
+  background-image: url("img/plaid.jpg");
 height: 1200px;
   background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
+    background-repeat: repeat;
+    /*background-size: cover;*/
 }
 
 #banner {
