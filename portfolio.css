@@ -1,5 +1,6 @@
 body {
-    background: url(img/fondo.jpg);
+    background: url(img/BackgroundImage.jpg);
+    font-family: 'Text Me One', sans-serif;   
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,40 +11,55 @@ body {
 /* HEADER */
 
 header {
-    display: flex;  
-    align-items: center;
-    background-color:  rgb(222, 232, 233);
-    font-size: 1.2em;
-    font-family: 'Chakra Petch', sans-serif;
-  }
-  
-  header a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  header ul {
+  display: flex;  
+  align-items: center;
+  justify-content: flex-start;
+  height: 6w;
+  background-color:  rgb(231, 231, 231);
+  font-size: 1.2em;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
+  box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10vw;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 60px;
+  width: 40vw;
+}
+
+.list li {
     display: flex;
     justify-content: space-around;
-    list-style: none;
-    margin-left: auto;
-    margin-right: 60px;
-    width: 40vw;
-    font-family: 'Chakra Petch', sans-serif;
-  }
-  
-  .list li {
-      display: flex;
-      justify-content: space-around;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
+}
 
-  /* PROYECTOS */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* PROYECTOS */
   
   .proyectos {
     /*display: flex;
@@ -51,13 +67,11 @@ header {
     align-items: center;
     flex-direction: column;*/
     position: relative;
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     width: 75%;
     margin: auto;
     margin-top: 27px;
     border-radius: 30px;
-    /*font-family: 'PT Sans Narrow', sans-serif;*/ 
-    font-family: 'Chakra Petch', sans-serif;
   }
 
   .proyectos h1 {
@@ -67,6 +81,11 @@ header {
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    border: 2px ridge black;
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /******* "transition: .5s ease" lo que esta indicando es la cantidad de tiempo que dura dicha "animacion", en este caso EASE
@@ -81,16 +100,14 @@ header {
     text-align: center;
     transition: .5s ease;
     display: block;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background: url(img/fondo.jpg);
-  }
+ }
   
-  #vicki {background-color: violet; height: 25%; margin-bottom: 15px;}
-  #mari {/*background-color: red;*/ height: 25%; margin-bottom: 15px;}
-  #cata {/*background-color: grey;*/ height: 25%; margin-bottom: 15px;}
-  #aldi {/*background-color: orange;*/ border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; height: 25%;}
-  #aldi .imagen {border-bottom-right-radius:30px; border-bottom-left-radius:30px;}
+  #vicki {/*background-color: violet;*/ height: 25%; margin-bottom: 15px; border: 2px ridge orange;}
+  #mari {/*background-color: red;*/ height: 25%; margin-bottom: 15px; border: 2px ridge orange;}
+  #cata {/*background-color: grey;*/ height: 25%; margin-bottom: 15px; border: 2px ridge orange;}
+  #aldi {/*background-color: orange;*/ height: 25%; border: 2px ridge orange;}
+  /*#aldi .imagen {border-bottom-right-radius:30px; border-bottom-left-radius:30px;}*/
+ 
  /****** La clase .middle es el bloque de texto, no el texto en sí pero sí el bloquecito que aparece. Lo de transition ya lo expliqué,
  La opacidad va en 0 porque si tuviese algún otro valor se vería en el contenedor, y nosotras lo que queremos es que se vea SOLO cuando
  pasamos el mouse. La propiedad TRANSFORM no la sé explicar del todo bien así que tuve que buscar en google: Especifica la transformación a 
@@ -107,7 +124,7 @@ header {
     width: 20%;
   }
 
-  #vicki:hover {opacity: 0.6;}
+  .imagen:hover {opacity: 0.6;}
   #vicki:hover .middle {opacity: 1;}
 
   .imagen:hover {opacity: 0.6;}
@@ -120,8 +137,8 @@ header {
   #aldi:hover .middle {opacity: 1;}
   
   .texto {
-    background-color: rgb(207, 233, 208);
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 15px;
     padding: 16px 32px;
  }
@@ -132,12 +149,11 @@ footer {
     display: flex;  
     align-items: center;
     justify-content: space-between;
-    background-color:  rgb(222, 232, 233);
+    background-color:  rgb(231, 231, 231);
     font-size: 1em;
     bottom: 0px;
     margin-top: 25px;
-    font-family: 'Chakra Petch', sans-serif;
-  }
+ }
   
   footer a {
     display: flex;
@@ -175,15 +191,17 @@ footer .logo {
  /* margin-left: auto; */
     margin-right: 50px;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
   }
   
   .button {
-    border: 1px solid #625D85;
+    border: 1px solid rgb(95, 89, 133);
     border-radius: 5px;
-    background-color: #625D85;
+    background-color: rgb(95, 89, 133);
     height: 20px;
     width: 150px;
     margin: 10px;
     padding: 5px;
+    -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+    -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+    box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   }
