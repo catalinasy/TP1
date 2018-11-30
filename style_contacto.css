@@ -90,6 +90,7 @@ a {
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+  margin-top: 15px;
 
 } 
 
@@ -115,9 +116,13 @@ a {
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px 0;
     background-color: rgb(222, 232, 233);
     font-family: 'Text Me One', sans-serif;   
+    -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+    -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+    box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+
 }
 
 ::placeholder { 
@@ -127,7 +132,11 @@ input[type=text] {
 } 
 
 textarea[type=text] {
-background-color: rgb(222, 232, 233)
+background-color: rgb(222, 232, 233);
+-webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+-moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+margin: 3px;
 }
 
 .flex-container3{
@@ -160,7 +169,7 @@ input[type=submit] {
     align-items: center;}
   
   .wrapper{
-    height: 70%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
