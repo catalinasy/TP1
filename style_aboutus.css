@@ -31,10 +31,26 @@
     src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(https://fonts.gstatic.com/s/ptsansnarrow/v9/BngRUXNadjH0qYEzV7ab-oWlsbCGwR0.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
+/* latin-ext */
+@font-face {
+  font-family: 'Text Me One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZVYFeCGg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Text Me One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZbYFc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 body {
-  background: url("img/BackgroundImage.jpg");
-  font-family: 'PT Sans Narrow';    
+  background: url("img/833.jpg");
+  font-family: 'Text Me One', sans-serif;    
   margin: 0px;
   padding: 0px;
 
@@ -47,8 +63,13 @@ header {
   align-items: center;
   justify-content: flex-start;
   height: 6w;
-  background-color:  rgb(241, 253, 255);
+  background-color:  rgb(235, 227, 235);
   font-size: 1.2em;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
+  box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
 }
 
 header a {
@@ -84,8 +105,8 @@ a {
 /* ABOUT US */
 
 .aboutus {
-  border: 1px solid  rgb(241, 253, 255);
-  background-color: rgb(241, 253, 255);
+  border: 1px solid  rgb(228, 228, 228);
+  background-color: rgb(231, 231, 231);
   display:flex;
   flex-direction: column;
   align-items: center;
