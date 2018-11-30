@@ -39,6 +39,8 @@ body {
   text-align: center;
   border: whitesmoke solid 4px;
   background-color: whitesmoke;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
   font-family: 'Text Me One', sans-serif;
   font-size: 300%;
@@ -76,6 +78,8 @@ a {
   flex-direction: column;
   justify-content: center;
   border: whitesmoke solid 2px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -138,12 +142,16 @@ a {
   width: 50%;
   margin: 5% 0 2%;
   border: black 2px solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
   padding: 0;
 }
 
 .button {
   border: 1px solid #dcdcdf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: #eae8fc;
   height: 20px;
@@ -222,12 +230,15 @@ p {
   height: 60%;
   margin: 0 2%;
   width: 15%;
-  border: grey solid 1px;
+  /*border: grey solid 1px;*/
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
 }
 
 .cajita.uno {
@@ -259,6 +270,8 @@ p {
   align-items: center;
   width: 70%;
   border: #016386 solid 2px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
   border-radius: 30px;
   /*background-color: rgb(222, 232, 233);*/
   background-color: #e3c2ef;
