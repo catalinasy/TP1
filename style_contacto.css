@@ -151,7 +151,24 @@ input[type=submit] {
   margin: 2% 0 10% 0 ;
   }
 
+  #mapa img{height: 70%;}
+
+  #mapa{border: black solid 3px;}
+  
+  .form{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+  
+  .wrapper{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
  /* FOOTER */
+
 
 footer {
   display: flex;  
