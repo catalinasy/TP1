@@ -1,51 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|PT+Sans+Narrow");
 
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|PT+Sans+Narrow');
-
-body{
-  margin:0;
-  padding:0;
+body {
+  margin: 0;
+  padding: 0;
   font-family: "PT Sans Narrow", sans-serif;
-   background-image: url("img/codigo.jpg");
+  background-image: url("img/codigo.jpg");
 }
 
-#wrapper{
+#wrapper {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
-.parallax{
+.parallax {
   margin: 0;
   padding: 0;
   background-image: url("img/codigo.jpg");
-height: 1200px;
+  height: 1200px;
   background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #banner {
   width: 40%;
-  padding: 5% 5%;
-  margin:5% 25% 10%;
+  /*padding: 5% 5%;*/
+  
+  margin: 10% 30% 10%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 150px;
   text-align: center;
   border: whitesmoke solid 4px;
   background-color: whitesmoke;
   border-radius: 10px;
-    font-family: "PT Sans Narrow", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 300%;
-
-  }
-
+}
 
 a {
   font-family: "PT Sans Narrow", sans-serif;
@@ -59,10 +56,9 @@ a {
 }
 
 #holaMundo {
-  padding:0;
+  padding: 0;
   width: 70%;
   font-size: 130%;
-
 }
 
 #imagen img {
@@ -70,17 +66,16 @@ a {
   width: 100%;
 }
 
-
-
 #contenedorLinks {
-  height: 50%;
+  width: 50%;
+  height: 30%;
   background-color: whitesmoke;
-  padding: 0;
-  margin: 0 10% 10%;
+  padding: 0 5%;
+  margin: 0 20% 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  border:whitesmoke solid 2px;
+  justify-content: center;
+  border: whitesmoke solid 2px;
   border-radius: 10px;
 }
 
@@ -101,10 +96,10 @@ a {
 
 .contenedorCaja.dos {
   padding: 0 0 5%;
-  margin:0 0 10px;
+  margin: 0 0 10px;
 }
 
-.caja{
+.caja {
   width: 50%;
   padding: 0;
   display: flex;
@@ -114,12 +109,9 @@ a {
   text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 200%;
-
 }
 
-
-
-.caja.uno{
+.caja.uno {
   border-right: grey solid 1px;
 }
 
@@ -127,12 +119,10 @@ a {
   height: 50%;
 }
 
-
 .caja.tres {
   border-right: grey solid 1px;
   padding-top: 5%;
-  }
-
+}
 
 .boton {
   background-color: #d373b3;
@@ -151,7 +141,6 @@ a {
   padding: 0;
 }
 
-
 .button {
   border: 1px solid #625d85;
   border-radius: 5px;
@@ -163,49 +152,46 @@ a {
 }
 
 .contenedor.Metricas {
-  margin-top:0;
+  margin-top: 0;
   background-color: whitesmoke;
   height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5% 0 0;
-  }
+}
 
-.sociales{
-    padding: 0;
-    height: 20%;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
+.sociales {
+  padding: 0;
+  height: 20%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
 
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
 }
 
-
-
-.contenedor.icono{
+.contenedor.icono {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0;
   width: 70%;
   height: 50%;
-
 }
 
 p {
   margin: 0;
 }
 
-.icono{
+.icono {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -213,11 +199,9 @@ p {
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
-
 }
 
-
-.texto{
+.texto {
   padding: 0;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 4em;
@@ -226,74 +210,64 @@ p {
   padding-bottom: 1%;
 }
 
-.sociales img{
-    height: 50%;
-    padding-right: 2%;
-
+.sociales img {
+  height: 50%;
+  padding-right: 2%;
 }
 
-
-.cajita{
-    height: 70%;
-    margin: 0;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top:0;
-    margin-bottom: 5%;
-    width: 15%;
-    border: grey solid 1px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-
-
+.cajita {
+  height: 70%;
+  margin: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0;
+  margin-bottom: 5%;
+  width: 15%;
+  border: grey solid 1px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.cajita.uno{
-    background-color:#edd0ec
-    
+.cajita.uno {
+  background-color: #edd0ec;
 }
 
-.cajita img {height:50%;}
-
-
-.cajita.dos{
-    background-color:#d49cee
-    
-}
-.cajita.tres{
-    background-color:#b1abeb
-    
-}
-.cajita.cuatro{
-    background-color:#9fc5f0
-    
-}
-.cajita.cinco{
-    background-color:#8ef1cb
-    
+.cajita img {
+  height: 50%;
 }
 
-#botonContacto{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:70%;
-    border: #016386 solid 2px;
-    border-radius: 30px;
-    /*background-color: rgb(222, 232, 233);*/
-    background-color: #e3c2ef;
-    height: 20%;
-    font-size: 300%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-  
+.cajita.dos {
+  background-color: #d49cee;
+}
+.cajita.tres {
+  background-color: #b1abeb;
+}
+.cajita.cuatro {
+  background-color: #9fc5f0;
+}
+.cajita.cinco {
+  background-color: #8ef1cb;
 }
 
+#botonContacto {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  border: #016386 solid 2px;
+  border-radius: 30px;
+  /*background-color: rgb(222, 232, 233);*/
+  background-color: #e3c2ef;
+  height: 20%;
+  font-size: 300%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 /* FOOTER */
 
