@@ -17,7 +17,7 @@ header {
   height: 6w;
   background-color:  rgb(231, 231, 231);
   font-size: 1.2em;
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
   -moz-box-shadow: 0px 2px 5px 0px rgba(156,156,156,1);
@@ -59,19 +59,15 @@ a {
   color: black;
 }
 
-/* PROYECTOS */
+/*** PROYECTOS ***/
   
   .proyectos {
-    /*display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;*/
     position: relative;
-    /*background-color: whitesmoke;*/
     width: 75%;
     margin: auto;
     margin-top: 27px;
     border-radius: 30px;
+   /*background-color: whitesmoke;*/
   }
 
   .proyectos h1 {
@@ -81,8 +77,8 @@ a {
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 2px ridge black;
-    background-color: whitesmoke;
+    border: 5px double black;
+    background-color: #fff1dc ;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -92,8 +88,8 @@ a {
   especifica un efecto con un comienzo lento, luego rápido y termina lento, TODO en menos de un segundo. En el div .trabajos lo que
   causa es que todos los efectos aparezcan y desaparezcan en esa cantidad de tiempo, cuando pasas el mouse por arriba *******/
 
-  /*****Por que usar display:block? Porque en este caso no quiero respetar el layout, al contrario, quiero que las cosas estén una por arriba 
-  de la otra. Palabras de la muy sabia Bel Rey ☻☻☻ *****/
+  /***** Por que usar display:block? Porque en este caso no quiero respetar el layout, al contrario, quiero que las cosas estén una por arriba 
+  de la otra. Palabras de la muy sabia Bel Rey ☺☺☺ *****/
 
   .trabajos {
     width: 100%;
@@ -102,10 +98,10 @@ a {
     display: block;
  }
   
-  #vicki {/*background-color: violet;*/ height: 25%; margin-bottom: 15px; border: 2px ridge orange;}
-  #mari {/*background-color: red;*/ height: 25%; margin-bottom: 15px; border: 2px ridge orange;}
-  #cata {/*background-color: grey;*/ height: 25%; margin-bottom: 15px; border: 2px ridge orange;}
-  #aldi {/*background-color: orange;*/ height: 25%; border: 2px ridge orange;}
+  #vicki {/*background-color: violet;*/ height: 25%; margin-bottom: 15px; border: 2px dashed #ffbe5d;}
+  #mari {/*background-color: red;*/ height: 25%; margin-bottom: 15px; border: 2px dashed black;}
+  #cata {/*background-color: grey;*/ height: 25%; margin-bottom: 15px; border: 2px dashed #ffbe5d;}
+  #aldi {/*background-color: orange;*/ height: 25%; border: 2px dashed black;}
   /*#aldi .imagen {border-bottom-right-radius:30px; border-bottom-left-radius:30px;}*/
  
  /****** La clase .middle es el bloque de texto, no el texto en sí pero sí el bloquecito que aparece. Lo de transition ya lo expliqué,
@@ -119,7 +115,7 @@ a {
     opacity: 0;
     position: absolute;
     margin: auto;
-    transform: translate(205%,-215%);
+    transform: translate(200%,-205%);
     text-align: center;
     width: 20%;
   }
