@@ -165,11 +165,7 @@ input[type=submit] {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(236, 234, 243);
     margin: 2% 30%;
-    border:   rgb(236, 234, 243) solid 2px;
-    border-radius: 10px;
-    
   }
  /* FOOTER */
 
