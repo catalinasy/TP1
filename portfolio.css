@@ -29,6 +29,9 @@ header a {
   justify-content: center;
   align-items: center;
 }
+.logo {
+  width: 4vw;
+}
 
 .index {
   display:flex;
@@ -38,7 +41,6 @@ header a {
   padding: 5px;
   margin-top: 2px;
 }
-
 header ul {
   display: flex;
   flex-direction: row;
