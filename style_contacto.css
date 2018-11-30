@@ -165,7 +165,7 @@ input[type=submit] {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(112, 77, 238);
+    background-color: rgb(223, 218, 238);
     margin: 2% 0;
     
   }
