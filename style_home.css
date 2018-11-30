@@ -116,7 +116,8 @@ a {
 
 .caja img {
   height: 20%;
-  padding-right: 5%;
+  padding-right: 0 5% 10%;;
+
 }
 
 .caja.tres {
