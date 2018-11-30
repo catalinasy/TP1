@@ -30,7 +30,7 @@ header {
   align-items: center;
   justify-content: flex-start;
   height: 6w;
-  background-color:  rgb(231, 231, 231);
+  background-color:  whitesmoke;
   font-size: 1.2em;
   position: sticky;
   top: 0;
@@ -79,7 +79,7 @@ a {
 .title {
   display: flex;
   justify-content: center;
-  background-color: rgb(231, 231, 231);
+  background-color: whitesmoke;
   margin: 10px;
   border-radius: 20px;
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
@@ -170,7 +170,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 6w;
-  background-color:  rgb(231, 231, 231);
+  background-color:  whitesmoke;
   font-size: 1em;
   bottom: 0px;
   margin-top: 10px;
@@ -213,9 +213,9 @@ footer .logo {
 }
 
 .button {
-  border: 1px solid rgb(95, 89, 133);
+  border: 1px solid #dcdcdf;
   border-radius: 5px;
-  background-color: rgb(95, 89, 133);
+  background-color: #eae8fc;
   height: 20px;
   width: 150px;
   margin: 10px;
@@ -224,3 +224,4 @@ footer .logo {
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
 }
+
