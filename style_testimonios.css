@@ -79,7 +79,7 @@ a {
 .title {
   display: flex;
   justify-content: center;
-  background-color: rgb(222, 232, 233);
+  background-color: rgb(231, 231, 231);
   margin: 10px;
   border-radius: 20px;
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
