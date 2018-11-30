@@ -129,8 +129,9 @@ input[type=text] {
 textarea[type=text] {
 background-color: rgb(222, 232, 233)
 
-font-family: 'Text Me One', sans-serif;   
+  font-family:'Text Me One', sans-serif;   
 }
+
 .flex-container3{
   display: flex;
   justify-content: center;
