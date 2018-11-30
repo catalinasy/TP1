@@ -97,11 +97,12 @@ a {
 }
 
 .testimonio{
-    background-color: rgb(238, 149, 238);
+    background-color: #d49cee;
     opacity: 0.7;
     margin: 10px;
     border-radius: 20px;
     padding: 30px;
+    border: 6px solid grey;
     line-height: 60px;
     width: 550px;
     height: 150px;
@@ -129,8 +130,8 @@ a {
     content: " “ ";
     color: black;
     position: absolute;
-    top: 20px;
-    left: -10px;
+    top: 10px;
+    left: -30px;
     width: 60px;
     font-size: 250%
   }
@@ -139,8 +140,8 @@ a {
     content: " ” ";
     color: black;
     position: absolute;
-    bottom: -40px;
-    right: -10px;
+    bottom: -30px;
+    right: 10px;
     width: 60px;
     font-size: 250%
   }
@@ -151,15 +152,15 @@ a {
     }
 
     #t2 {
-      background-color: white;
+      background-color: #b1abeb;
     }
 
     #t3 {
-      background-color: grey;
+      background-color: #9fc5f0;
     }
 
     #t4 {
-      background-color: orange;
+      background-color: #8ef1cb;
     }
 
  /* FOOTER */
