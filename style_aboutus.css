@@ -62,7 +62,7 @@ header {
   display: flex;  
   align-items: center;
   justify-content: flex-start;
-  height: 6w;
+  height: auto;
   background-color:  whitesmoke;
   font-size: 1.2em;
   position: sticky;
@@ -78,6 +78,9 @@ header a {
   align-items: center;
 }
 
+.logo {
+  width: 4vw;
+}
 .index {
   display:flex;
   justify-content: space-around;

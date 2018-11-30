@@ -46,6 +46,10 @@ header a {
   align-items: center;
 }
 
+.logo {
+  width: 4vw;
+}
+
 .index {
   display:flex;
   justify-content: space-around;
