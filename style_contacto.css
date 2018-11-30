@@ -114,6 +114,11 @@ input[type=text] {
     background-color: rgb(222, 232, 233)
 }
 
+::placeholder { 
+  opacity:1000;
+
+} 
+
 textarea[type=text] {
 background-color: rgb(222, 232, 233)
 }
