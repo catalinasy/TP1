@@ -107,26 +107,29 @@ a {
     padding: 30px;
     border: 6px solid grey;
     line-height: 60px;
-    width: 550px;
-    height: 150px;
+    width: 45vw;
+    height: auto;
     /*width: 70%;
     height: 10%;*/
     text-align: center;
-    font-size: 2em;
+    font-size: 1.1em;
     position: relative;
     /*padding: 5% 10%;*/
+    font-weight: bold;
 }
 
 .testimonioIzquierda{
   display: flex;
   flex-direction: column;
-  align-items: flex-start
+  align-items: flex-start;
+  margin-left: 45px;
 }
 
 .testimonioDerecha{
   display: flex;
   flex-direction: column;
-  align-items: flex-end
+  align-items: flex-end;
+  margin-right: 45px;
 }
 
   .testimonio::before { 
