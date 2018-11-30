@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("img/codigo.jpg");
+  background-image: url("img/BackgroundImage.jpg");
 
   font-family: 'Text Me One', sans-serif;
 }
@@ -171,7 +171,7 @@ a {
   align-items: center;
   text-align: center;
   padding-bottom: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 
   /*background-color: rgb(222, 232, 233);*/
   background-color: whitesmoke;
