@@ -157,6 +157,18 @@ footer a {
   margin: 10px;
   text-align: center;
 }
+
+.RRSS {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+}
+
+footer .logo {
+  height: 3vw;
+}
+
 /* BUTTON */
 
 .buttons {
