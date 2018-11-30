@@ -116,7 +116,7 @@ input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    background-color:  whitesmoke;
+    background-color:   rgb(222, 232, 233);
     
     font-family: 'Text Me One', sans-serif;   
 }
@@ -128,8 +128,6 @@ input[type=text] {
 
 textarea[type=text] {
 background-color: rgb(222, 232, 233)
-
-  font-family:'Text Me One', sans-serif;   
 }
 
 .flex-container3{
