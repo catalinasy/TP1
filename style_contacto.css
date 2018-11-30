@@ -158,6 +158,8 @@ input[type=submit] {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(112, 77, 238);
+    margin: 2% 0;
     
   }
  /* FOOTER */
