@@ -116,10 +116,9 @@ a {
     display: block;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    background: url(img/fondo.jpg);
   }
   
-  #vicki {background-color: violet; height: 25%; margin-bottom: 15px;}
+  #vicki {/*background-color: violet;*/ height: 25%; margin-bottom: 15px;}
   #mari {/*background-color: red;*/ height: 25%; margin-bottom: 15px;}
   #cata {/*background-color: grey;*/ height: 25%; margin-bottom: 15px;}
   #aldi {/*background-color: orange;*/ border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; height: 25%;}
@@ -140,7 +139,7 @@ a {
     width: 20%;
   }
 
-  #vicki:hover {opacity: 0.6;}
+  .imagen:hover {opacity: 0.6;}
   #vicki:hover .middle {opacity: 1;}
 
   .imagen:hover {opacity: 0.6;}
