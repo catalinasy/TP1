@@ -152,8 +152,8 @@ a {
   #aldi:hover .middle {opacity: 1;}
   
   .texto {
-    background-color: rgb(207, 233, 208);
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 15px;
     padding: 16px 32px;
  }
