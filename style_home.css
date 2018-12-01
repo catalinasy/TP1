@@ -69,37 +69,33 @@ a {
 }
 
 /* Cata te dejo el contenedor link en flex para que lo veas
- <div class="flex-container">
-        <div class="caja uno">
-          <a href="aboutUs.html">
-           <img src="aboutUs.svg" alt="quiénes somos"/>
-             <p>About us</p>
-            </a>
-        </div>
+ 
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+background-color: whitesmoke;
+margin: 150px 50px 150px 150px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+width:1000px;
+height: 400px;
+}
 
-        <div class="caja dos">
-          <a href="portfolio.html">
-          <img src="portfolio.svg" alt="portfolio"/>
-          <p>Portfolio</p>
-          </a>
-        </div>
+.caja{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 43%
+    
+}
 
-        <div class="caja tres">
-          <a href="Testimonios.html">
-          <img src="testimonios.svg" alt="testimonios"/>
-          <p>Testimonios</p>
-          </a>
-        </div>
+.caja.uno { border-right: grey solid 1px; border-bottom: grey solid 1px; }
+.caja.dos {border-bottom: grey solid 1px;}
+.caja.tres { border-right: grey solid 1px;}
 
-        <div class="caja cuatro"> 
-          <a href="Contacto.html">
-         <img src="mail.svg" alt="contactanos"/>
-         <p>Contactanos</p>
-        </a>
-        </div>
-    </div>
 
-    - esto implicaria eliminar las lineas, teniendo en cuenta estas desde la 105 hasta la 155 -
+ - esto implicaria eliminar las lineas, teniendo en cuenta estas desde la 101 hasta la 150 -
     */
 
 #contenedorLinks {
