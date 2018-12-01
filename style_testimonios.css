@@ -1,20 +1,4 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Text Me One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZVYFeCGg.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Text Me One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZbYFc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
 
 body {
     background-image: url(img/BackgroundImage.jpg);
@@ -86,10 +70,11 @@ a {
   background-color: whitesmoke;
   margin: 10px;
   border-radius: 20px;
-  -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-  -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   margin: 35px 400px 15px 400px;
+  /* para que se vea bien en otros navegadores*/
+  -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+  -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
 } 
 
 .flex-container{
@@ -108,13 +93,10 @@ a {
     border: 6px solid grey;
     line-height: 60px;
     width: 45vw;
-    height: auto;
-    /*width: 70%;
-    height: 10%;*/
+    height: auto; 
     text-align: center;
     font-size: 1.1em;
     position: relative;
-    /*padding: 5% 10%;*/
     font-weight: bold;
 }
 
@@ -137,7 +119,7 @@ a {
     color: black;
     position: absolute;
     top: 10px;
-    left: -30px;
+    left: -15px;
     width: 60px;
     font-size: 250%
   }
@@ -146,7 +128,7 @@ a {
     content: " ” ";
     color: black;
     position: absolute;
-    bottom: -30px;
+    bottom: -20px;
     right: 10px;
     width: 60px;
     font-size: 250%
@@ -212,8 +194,7 @@ footer .logo {
 .buttons {
   display: flex;
   flex-direction: column;
-  list-style: none;/*
-  margin-left: auto;*/
+  list-style: none;
   margin-right: 50px;
   text-align: center;
 }
@@ -226,6 +207,7 @@ footer .logo {
   width: 150px;
   margin: 10px;
   padding: 5px;
+  /* para que se vea bien en otros navegadores*/
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
