@@ -68,6 +68,40 @@ a {
   width: 100%;
 }
 
+/* Cata te dejo el contenedor link en flex para que lo veas
+ <div class="flex-container">
+        <div class="caja uno">
+          <a href="aboutUs.html">
+           <img src="aboutUs.svg" alt="quiénes somos"/>
+             <p>About us</p>
+            </a>
+        </div>
+
+        <div class="caja dos">
+          <a href="portfolio.html">
+          <img src="portfolio.svg" alt="portfolio"/>
+          <p>Portfolio</p>
+          </a>
+        </div>
+
+        <div class="caja tres">
+          <a href="Testimonios.html">
+          <img src="testimonios.svg" alt="testimonios"/>
+          <p>Testimonios</p>
+          </a>
+        </div>
+
+        <div class="caja cuatro"> 
+          <a href="Contacto.html">
+         <img src="mail.svg" alt="contactanos"/>
+         <p>Contactanos</p>
+        </a>
+        </div>
+    </div>
+
+    - esto implicaria eliminar las lineas, teniendo en cuenta estas desde la 105 hasta la 155 -
+    */
+
 #contenedorLinks {
   width: 60%;
   height: 30%;
@@ -117,7 +151,7 @@ a {
 .caja.uno img { height: 30%; margin-bottom: 4%; }
 .caja.dos img { height: 22%; margin-top: 4%; padding-bottom: 6%; }
 .caja.tres img { height: 22%; margin-bottom: 4%; }
-.caja.cuatro img { height: 22%; margin-top: 12%; padding-bottom: 4%; }
+.caja.cuatro img { height: 22%; margin-top: 4%; padding-bottom: 6}
 
 .button {
   border: 1px solid #dcdcdf;
