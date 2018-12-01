@@ -1,20 +1,4 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Text Me One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZVYFeCGg.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Text Me One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZbYFc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One');
 
 body {
     background-image: url(img/BackgroundImage.jpg);
@@ -112,13 +96,11 @@ a {
     border: none;
 }
 
-
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 10px 0;
     background-color: rgb(222, 232, 233);
-    font-family: 'Text Me One', sans-serif;   
     -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
     -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
     box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
@@ -128,15 +110,14 @@ input[type=text] {
 ::placeholder { 
   opacity:1000;
   font-family: 'Text Me One', sans-serif;  
-
 } 
 
 textarea[type=text] {
 background-color: rgb(222, 232, 233);
+margin: 3px;
 -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
 -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
 box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-margin: 3px;
 }
 
 .flex-container3{
@@ -148,25 +129,20 @@ input[type=submit] {
   border: 1px solid #dcdcdf;
   border-radius: 5px;
   background-color: #eae8fc;
-    height: 30px;
-    width: 150px;
-    -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-    -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-    box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-    
-    font-family: 'Text Me One', sans-serif;   
-
-  margin: 2% 0 10% 0 ;
+  height: 30px;
+  width: 150px;
+  font-family: 'Text Me One', sans-serif;   
+  margin: 2% 0 10% 0;
+  -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+  -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+  box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   }
-
-  #mapa img{height: 70%;}
-
-  #mapa{border: black solid 3px;}
   
   .form{ display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+  }
   
   .wrapper{
     height: auto;
@@ -176,7 +152,6 @@ input[type=submit] {
     margin: 2% 30%;
   }
  /* FOOTER */
-
 
 footer {
   display: flex;  
@@ -218,8 +193,7 @@ footer .logo {
 .buttons {
   display: flex;
   flex-direction: column;
-  list-style: none;/*
-  margin-left: auto;*/
+  list-style: none;
   margin-right: 50px;
   text-align: center;
 }

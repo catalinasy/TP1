@@ -68,6 +68,36 @@ a {
   width: 100%;
 }
 
+/* Cata te dejo el contenedor link en flex para que lo veas
+ 
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+background-color: whitesmoke;
+margin: 150px 50px 150px 150px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+width:1000px;
+height: 400px;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 43%
+    
+}
+
+.caja.uno { border-right: grey solid 1px; border-bottom: grey solid 1px; }
+.caja.dos {border-bottom: grey solid 1px;}
+.caja.tres { border-right: grey solid 1px;}
+
+
+ - esto implicaria eliminar las lineas, teniendo en cuenta estas desde la 101 hasta la 150 -
+    */
+
 #contenedorLinks {
   width: 60%;
   height: 30%;
@@ -116,8 +146,13 @@ a {
 
 .caja.uno img { height: 30%; margin-bottom: 4%; }
 .caja.dos img { height: 22%; margin-top: 4%; padding-bottom: 6%; }
+<<<<<<< HEAD
 .caja.tres img { height: 22%; margin-bottom: 4%; margin-top: 11%; }
 .caja.cuatro img { height: 22%; margin-top: 12%; padding-bottom: 4%; }
+=======
+.caja.tres img { height: 22%; margin-bottom: 4%; }
+.caja.cuatro img { height: 22%; margin-top: 4%; padding-bottom: 6}
+>>>>>>> 992acd93a3de51e0455fbd54de526c354fbf074a
 
 .button {
   border: 1px solid #dcdcdf;
@@ -272,12 +307,4 @@ footer a {
   margin-right: 50px;
   text-align: center;
 }
-
-@media (max-width: 1000px){
-  .contenedor.metricas{display: none;}
-  #contenedorLinks{height: 50%;}
-  #banner{margin:0 0 10% 0; height: 30%; width: 100%; font-size: 400%;}
-  #imagen img{height: 50%;}
-  #holamundo{;}
-  
-}  
+ 
