@@ -3,9 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("img/BackgroundImage.jpg");
-
   font-family: 'Text Me One', sans-serif;
-}
+}/*ok*/
 
 #wrapper {
   margin: 0;
@@ -13,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+}/*ok*/
 
 .parallax {
   margin: 0;
@@ -24,18 +23,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}/*ok*/
 
 #banner {
   width: 30%;
+  height: 20%;
   padding: 0 5%;
-  
   margin: 10% 30% 10%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 20%;
   text-align: center;
   border: whitesmoke solid 4px;
   background-color: whitesmoke;
@@ -44,80 +42,48 @@ body {
   border-radius: 10px;
   font-family: 'Text Me One', sans-serif;
   font-size: 300%;
-}
+}/*ok*/
 
 a {
   outline: none;
   color: black;
   text-decoration: none;
 }
-
+/*ok*/
 #imagen {
   width: 30%;
   padding: 5%;
 }
+/*ok*/
 
 #holaMundo {
   padding: 5% 0;
   width: 70%;
   font-size: 130%;
 }
+/*ok*/
 
-#imagen img {
-  height: 100%;
-  width: 100%;
-}
-
-/* Cata te dejo el contenedor link en flex para que lo veas
- 
-.flex-container {
-display: flex;
-flex-wrap: wrap;
-background-color: whitesmoke;
-margin: 150px 50px 150px 150px;
-border-radius: 10px;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-width:1000px;
-height: 400px;
-}
-
-.caja{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    width: 43%
-    
-}
-
-.caja.uno { border-right: grey solid 1px; border-bottom: grey solid 1px; }
-.caja.dos {border-bottom: grey solid 1px;}
-.caja.tres { border-right: grey solid 1px;}
-
-
- - esto implicaria eliminar las lineas, teniendo en cuenta estas desde la 101 hasta la 150 -
-    */
 
 #contenedorLinks {
   width: 60%;
   height: 30%;
   background-color: whitesmoke;
+  border: whitesmoke solid 2px;
   padding: 0;
   margin: 0 20% 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: whitesmoke solid 2px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
 
+  
 .contenedorCaja {
   display: flex;
   justify-content: space-around;
   height: 50%;
-  margin: 0 0 10px;
   padding: 0 5% 0;
   background-color: whitesmoke;
 }
@@ -140,30 +106,19 @@ height: 400px;
   font-size: 180%;
 }
 
-.caja.uno { border-right: grey solid 1px; }
-.caja.tres { border-right: grey solid 1px; /*padding-top: 5%;*/ }
 
+.caja.uno { border-right: grey solid 1px; }
 .caja.uno img { height: 30%; margin-bottom: 4%; }
+
 .caja.dos img { height: 22%; margin-top: 4%; padding-bottom: 6%; }
+
+.caja.tres { border-right: grey solid 1px;}
 .caja.tres img { height: 22%; margin-bottom: 4%; }
+ 
 .caja.cuatro img { height: 22%; margin-top: 4%; padding-bottom: 6%; padding-right: 10%;}
 .caja.cuatro p {padding-right: 10%;}
 
 
-.button {
-  border: 1px solid #dcdcdf;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  background-color: #eae8fc;
-  height: 20px;
-  width: 150px;
-  margin: 10px;
-  padding: 5px;
-  -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-  -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-  box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-}
 
 .contenedor.Metricas {
   margin-top: 0;
@@ -230,15 +185,14 @@ p {
   height: 60%;
   margin: 0 2%;
   width: 15%;
-  /*border: grey solid 1px;*/
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
   -webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .cajita.uno {
@@ -269,19 +223,18 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 6w;
-
   background-color: whitesmoke;
   font-size: 1em;
   bottom: 0px;
   margin-top: 10px;
 }
 
-/*background-color: rgb(222, 232, 233);*/
 footer a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .logo {
   height: 4vw;
   padding: 2px;
@@ -292,6 +245,24 @@ footer a {
   text-align: center;
 }
 /* BUTTON */
+
+
+
+
+.button {
+  border: 1px solid #dcdcdf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #eae8fc;
+  height: 20px;
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+  -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+  box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+}
 
 .buttons {
   display: flex;
@@ -306,8 +277,8 @@ footer a {
 @media (max-width: 1000px){
   .contenedor.metricas{display: none;}
   #contenedorLinks{height: 50%;}
-  #banner{margin:0 0 10% 0; height: 30%; width: 100%; font-size: 400%;}
+  #banner{margin:0 0 10% 0; height: 30%; width: 90%; font-size: 400%;}
   #imagen img{height: 50%;}
-  #holamundo{;}
+  
   
 } 
