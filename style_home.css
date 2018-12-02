@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-image: url("img/BackgroundImage.jpg");
   font-family: 'Text Me One', sans-serif;
-}/*ok*/
+}
 
 #wrapper {
   margin: 0;
@@ -12,7 +12,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}/*ok*/
+  align-items: center;
+}
 
 .parallax {
   margin: 0;
@@ -23,7 +24,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}/*ok*/
+}
 
 #banner {
   width: 30%;
@@ -42,26 +43,26 @@ body {
   border-radius: 10px;
   font-family: 'Text Me One', sans-serif;
   font-size: 300%;
-}/*ok*/
+}
 
 a {
   outline: none;
   color: black;
   text-decoration: none;
 }
-/*ok*/
+
 #imagen {
   width: 30%;
   padding: 5%;
 }
-/*ok*/
+
 
 #holaMundo {
   padding: 5% 0;
   width: 70%;
   font-size: 130%;
 }
-/*ok*/
+
 
 
 #contenedorLinks {
@@ -122,6 +123,7 @@ a {
 
 .contenedor.Metricas {
   margin-top: 0;
+  width: 100%;
   background-color: whitesmoke;
   height: 20%;
   display: flex;
@@ -133,6 +135,7 @@ a {
 .sociales {
   padding: 0;
   height: 10%;
+  width: 100%;
   font-size: 50%;
   display: flex;
   flex-direction: column;
@@ -277,8 +280,8 @@ footer a {
 @media (max-width: 1000px){
   .contenedor.metricas{display: none;}
   #contenedorLinks{height: 50%;}
-  #banner{margin:0 0 10% 0; height: 30%; width: 90%; font-size: 400%;}
+  #banner{margin:0 0 10% 0; padding: 0;height: 30%; width: 80%; font-size: 400%;}
   #imagen img{height: 50%;}
-  
+  footer{height: 30%;}
   
 } 

@@ -130,11 +130,13 @@ a {
 }
 
 .dos {
-  background-image: url('img/Segunda2.png');
+  background-image: url('img/aboutUs Cata.png');
+  
 }
 
 .tres {
   background-image: url('img/Tercera2.png');
+  width: 100%;
 
 }
 
