@@ -80,7 +80,6 @@ a {
 .flex-container{
   display: flex;
   flex-direction: column;
-  align-content: baseline;
   padding: 10px;
 }
 
@@ -211,5 +210,44 @@ footer .logo {
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+}
+
+
+
+@media only screen and (min-device-width : 667px) and (max-device-width : 768px) {
+  #t1 {
+    background-color: rgb(23, 153, 136);
+  }
+
+  #t2 {
+    background-color:rgb(240, 231, 114);
+  }
+
+  #t3 {
+    background-color: rgb(64, 228, 187);
+  }
+
+  #t4 {
+    background-color: rgb(224, 120, 89);
+  }
+
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .testimonioIzquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px
+  }
+
+  .testimonioDerecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px
+  }
+  
 }
 
