@@ -142,15 +142,10 @@ input[type=submit] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
   }
   
-  .wrapper{
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2% 30%;
-  }
+  
  /* FOOTER */
 
 footer {
@@ -209,4 +204,14 @@ footer .logo {
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
+}
+
+@media (max-width: 1000px){
+form {width: 100%;}
+.flex-container{width: 80%;}
+.flex-container2{width: 80%; margin: 0 10%;}
+.formrow{width:100%;}
+.title{margin: 20% 5% 10% 5% ;}
+textarea.formrow {height: 20%;margin-bottom: 10%;}
+.flex-container3{margin-bottom: 40%;}
 }
