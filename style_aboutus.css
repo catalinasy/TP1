@@ -64,6 +64,8 @@ a {
   justify-content: center;
   background-color: whitesmoke;
   margin: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
@@ -76,7 +78,7 @@ a {
   -webkit-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   -moz-box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
-  background-color:  whitesmoke;
+  background-color:  rgba(245, 245, 245, 0.534);
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -91,9 +93,13 @@ a {
 }
 
 .aboutus p {
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 1.2em;
+   margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1.2em;
+  background-color: whitesmoke;    
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .us {
@@ -118,15 +124,20 @@ a {
   height: 150px;
   width: 150px;
   border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
 }
 
 .uno {
-  background-image: url('img/Primera2.jpg');
+  background-image: url('img/aboutUs mari.png');
 }
 
 .primera p {
   width: 50vw;
   margin-left: 15px;
+  background-color: whitesmoke;  
+  padding: 5px;
+
 }
 
 .dos {
@@ -135,13 +146,13 @@ a {
 }
 
 .tres {
-  background-image: url('img/Tercera2.png');
+  background-image: url('img/aboutUs Aldi.jpg');
   width: 100%;
 
 }
 
 .cuatro {
-  background-image: url('img/Cuarta2.jpg');
+  background-image: url('img/aboutUs Vicki.jpg');
   
 }
 
@@ -195,6 +206,8 @@ footer .logo {
 
 .button {
   border: 1px solid #dcdcdf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: #eae8fc;
   height: 20px;
