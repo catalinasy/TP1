@@ -114,7 +114,7 @@ a {
 .caja.dos img { height: 22%; margin-top: 4%; padding-bottom: 6%; }
 
 .caja.tres { border-right: grey solid 1px;}
-.caja.tres img { height: 22%; margin-bottom: 4%; }
+.caja.tres img { height: 22%; margin-bottom: 4%; padding-top: 5%; }
  
 .caja.cuatro img { height: 22%; margin-top: 4%; padding-bottom: 6%; padding-right: 10%;}
 .caja.cuatro p {padding-right: 10%;}
