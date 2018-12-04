@@ -116,7 +116,7 @@ a {
 .caja.cuatro p {padding-right: 10%;}
 
 
-.contenedor.Metricas {
+.Metricas {
   margin-top: 0;
   width: 100%;
   background-color: whitesmoke;
@@ -142,7 +142,7 @@ a {
   background-color: whitesmoke;
 }
 
-.contenedor.icono {
+.contenedor {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -160,7 +160,7 @@ p {
   display: flex;
   justify-content: center;
   margin: 0;
-  font-size: 200%;
+  font-size: 3em;
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
@@ -281,12 +281,12 @@ footer a {
   /* Styles */
 
 
-.contenedor.metricas {
+.metricas {
   width: 50%;
 }
 .cajita {display: none;}
 
-.contenedor.icono {
+.icono {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -303,7 +303,7 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   /* Styles */
-.contenedor.metricas{
+.metricas{
   display: none;
 }
  
@@ -318,12 +318,13 @@ footer {
  .datos {
    display: none;
  }
-
+/*
  .contenedor {
    display: flex;
    flex-direction: column;
- }
+ }*/
 
  .sociales {
    width: /*100vw*/100%;
  }
+}

@@ -242,6 +242,10 @@ footer a {
     border-top: 1px solid grey;
   }
 
+  .logo {
+    padding-right: 5px;
+  }
+
   .list li {
     display: flex;
     justify-content: space-around;
