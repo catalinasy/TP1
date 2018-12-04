@@ -272,7 +272,7 @@ footer a {
   text-align: center;
 }
  
-
+/*
 @media (max-width: 1000px){
   .contenedor.metricas{display: none;}
   #contenedorLinks{height: 50%;}
@@ -280,4 +280,24 @@ footer a {
   #imagen img{height: 50%;}
   footer{height: 30%;}
   
-} 
+} */
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  /* Styles */
+
+.contenedor.metricas{display: none;}
+
+footer {
+ min-height: 100px;
+ width: 100vw;
+ justify-content: space-around;
+}
+
+.datos {
+  display:none;
+}
+
+}
+

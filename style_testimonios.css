@@ -251,3 +251,49 @@ footer .logo {
   
 }
 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  /* Styles */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+    width: 90%;
+    padding: 2vw;
+    border-top: 1px solid grey;
+  }
+
+  .list li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50vw;
+} 
+
+footer {
+  min-height: 150px;
+  width: 100vw;
+ }
+ 
+ .datos {
+   display:none;
+ }
+ 
+  
+}

@@ -189,3 +189,42 @@ footer .logo {
     box-shadow: 4px 4px 8px 1px rgba(156,156,156,1);
   }
   
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  /* Styles */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+    width: 90%;
+    padding: 2vw;
+    border-top: 1px solid grey;
+  }
+
+  .list li {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+  min-height: 100px;
+  width: 100vw;
+ }
+ 
+ .datos {
+   display:none;
+ }
+ 
+  
+}
