@@ -241,9 +241,10 @@ footer {
   header ul {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     list-style: none;
     width: 90%;
-    margin-top: 0px; 
+    margin-top: 0; 
     padding: 2vw;
     margin: auto;
   }
@@ -255,17 +256,18 @@ footer {
   .list li {
     justify-content: space-around;
     padding: 5px;
-    margin: 4px;     
+    margin: 4px; 
     border-top: 1px solid grey;
-
+    width: 90%;
+    text-align: center;
 }
 
-footer {
- min-height: 100px;
- width: 100vw;
+  footer {
+   min-height: 100px;
+   width: 100vw;
 }
 
-.datos {
-  display:none;
+  .datos {
+   display: none;
 }
 }
