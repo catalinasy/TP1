@@ -280,33 +280,75 @@ footer a {
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
   /* Styles */
 
+  .metricas{
+    display: none;
+  }
+  
+  #banner {
+    margin: 40px  0 10% 0; 
+    padding: 0;
+    height: auto; 
+    width: 50%; 
+    font-size: 2em;
+  }
+  
+  #imagen {
+    width: 15%;
+  }
+   
+  footer {
+    min-height: 100px;
+    width: 100%;
+    justify-content: center;
+   }
+   
+   .datos {
+     display: none;
+   }
+  
+   .logo {
+     display: none;
+   }
 
-.metricas {
-  width: 50%;
-}
-.cajita {display: none;}
+   /*
+   .contenedor {
+     display: flex;
+     flex-direction: column;
+   }*/
+  
+   .sociales {
+     width: 80%;
+     height: 20%;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+     padding: 0px;
+  
+   }
 
-.icono {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+   .icono img {
+     width: 30px;
+     height: 30px;
+   }
+   .icono {  
+    padding-bottom: 25px;
+   }
+   .texto {
+     padding: 0;
+     height: 20px;
+   }
 
-/*.sociales {justify-content: space-between; align-content: space-around;}*/
-
-footer {
- min-height: 100px;
- width: 100vw;
- justify-content: space-around;
-}
-}
+   .parallax { 
+     height: 1000px;
+   }
+  }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   /* Styles */
 .metricas{
   display: none;
-}
+}*
 
 #banner {
   margin: 40px  0 10% 0; 
