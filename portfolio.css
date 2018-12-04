@@ -221,10 +221,50 @@ footer {
   min-height: 100px;
   width: 100vw;
  }
- 
- .datos {
-   display:none;
- }
- 
   
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Styles */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: static;
+  }
+
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    width: 90%;
+    margin-top: 0px; 
+    padding: 2vw;
+    margin: auto;
+  }
+
+  .logo { 
+    padding-right: 8px;
+  }
+
+  .list li {
+    justify-content: space-around;
+    padding: 5px;
+    margin: 4px;     
+    border-top: 1px solid grey;
+
+}
+
+footer {
+ min-height: 100px;
+ width: 100vw;
+}
+
+.datos {
+  display:none;
+}
 }
